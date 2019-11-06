@@ -16,7 +16,7 @@ ms.lasthandoff: 11/01/2019
 ms.locfileid: "73422946"
 ---
 # <a name="abstract-c-reference"></a>abstract（C# 参考）
-`abstract` 修饰符指示被修改内容的实现已丢失或不完整。 abstract 修饰符可用于类、方法、属性、索引和事件。 在类声明中使用 `abstract` 修饰符来指示某个类仅用作其他类的基类，而不用于自行进行实例化。 标记为抽象的成员必须由派生自抽象类的非抽象类来实现。
+`abstract` 修饰符指示被修饰内容的实现有缺省或不完整。 abstract 修饰符可用于类、方法、属性、索引和事件。 在类声明中使用 `abstract` 修饰符来指示某个类仅用作其他类的基类，而不用于自行进行实例化。 标记为`abstract`的成员必须由派生自抽象类的非抽象类来实现。
   
 ## <a name="example"></a>示例  
  在此示例中，类 `Square` 必须提供 `GetArea` 的实现，因为它派生自 `Shape`：  
