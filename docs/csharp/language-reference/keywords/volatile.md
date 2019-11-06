@@ -42,7 +42,7 @@ ms.locfileid: "73422131"
 
 [!code-csharp[declareVolatile](~/samples/snippets/csharp/language-reference/keywords/volatile/Program.cs#Volatile)]
 
-将 `volatile` 修饰符添加到 `_shouldStop` 的声明后，将始终获得相同的结果（类似于前面代码中显示的片段）。 但是，如果 `_shouldStop` 成员上没有该修饰符，则行为是不可预测的。 `DoWork` 方法可能会优化成员访问，从而导致读取陈旧数据。 鉴于多线程编程的性质，读取陈旧数据的次数是不可预测的。 不同的程序运行会产生一些不同的结果。
+将 `volatile` 修饰符添加到 `_shouldStop` 的声明中，将始终获得相同的结果（类似于前面代码中显示的片段）。 但是，如果 `_shouldStop` 成员上没有该修饰符，则行为是不可预测的。 `DoWork` 方法可能会优化成员访问，从而导致读取陈旧数据。 鉴于多线程编程的性质，读取陈旧数据的次数是不可预测的。 不同的程序运行会产生一些不同的结果。
 
 ## <a name="c-language-specification"></a>C# 语言规范
 
